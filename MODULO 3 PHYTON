@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPTRn/YAqRagDwJ5AeVxKyA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/josav333/introduccion_python/blob/main/MODULO%203%20PHYTON\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sn-RTxbhq2so",
+        "outputId": "582c23df-a9a6-4c25-f9e1-3316dad970d8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['verde', 'rojo', 'amarillo']\n",
+            "dime tu edad: 16\n",
+            "Todavía no puedes votar :(\n",
+            "Gracias por participar de este proceso\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "my_list=[\"verde\", \"rojo\", \"amarillo\"]\n",
+        "\n",
+        "print (my_list)\n",
+        "\n",
+        "my_list[2]\n",
+        "\n",
+        "edad = int(input('dime tu edad: '))\n",
+        "\n",
+        "####EJERCICIOS IF Y ELSE \n",
+        "\n",
+        "if edad >= 80:\n",
+        "  print('Lo sentimos usted ya no puede votar')\n",
+        "elif edad >= 18:\n",
+        "  print('Felicidades, ya puedes votar!')\n",
+        "else:\n",
+        "  print('Todavía no puedes votar :(')\n",
+        "\n",
+        "print('Gracias por participar de este proceso')\n",
+        "\n"
+      ]
+    }
+  ]
+}
